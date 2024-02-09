@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Streaming Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Coming Soon</h1>
-        <p>We are working hard to bring you an amazing experience!</p>
-        <div class="countdown">
-            <div id="days">0</div>
-            <div id="hours">0</div>
-            <div id="minutes">0</div>
-            <div id="seconds">0</div>
+        <h1>Welcome to our Streaming Platform</h1>
+        <div class="stream-input">
+            <label for="stream-url">Stream URL:</label>
+            <input type="text" id="stream-url" placeholder="Enter stream URL">
+            <label for="stream-key">Stream Key:</label>
+            <input type="text" id="stream-key" placeholder="Enter stream key">
+            <button onclick="startStreaming()">Start Streaming</button>
         </div>
     </div>
 
-    <script src="countdown.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
